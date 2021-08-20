@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(255, 45, 45);
+    width:100%;
+    height:auto;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.header > p{
+    text-align: center;
+    color:white;
+    font-size:25px;
+    font-weight:900;
+}
+
+.AddTaskContainer{
+    text-align:center;
+}
+
+.input_addText{
+    width:60%;
+    height:40px;
+    padding-left:10px;
+    border:0;
+    outline:none;
+}
+
+.btn-add,
+.btn-confirmEdit{
+    border:0;
+    height:40px;
+    width:10%;
+}
+
+.btn-confirmEdit{
+    background-color: rgb(47,47,47);
+    color:white;
+}
+
+.hide{
+    display: none;
+}
+
+.parentDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding-left:25px;
+    background-color: #f1f1f1;
+}
+
+.todo-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding-left:25px;
+    background-color: #f1f1f1;
+}
+
+.todo-div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding-left:25px;
+    background-color: #dadada;
+}
+
+.todo-div:hover{
+    background-color: #d1d1d1;
+    transition: background-color 0.3s;
+}
+
+button{
+    height:40px;
+    border:0;
+    padding:0 20px;
+}
+
+.button2{
+    background-color: #dadada;
+}
+
+button:hover{
+    background-color: red;
+    color:white;
+    transition: background-color 0.3s, color 0.3s;
+}
